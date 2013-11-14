@@ -1,0 +1,32 @@
+##NET "CLK": LOC="C9";
+
+NET "LED(0)": LOC="F12";
+NET "LED(1)": LOC="E12";
+NET "LED(2)": LOC="E11";
+NET "LED(3)": LOC="F11";
+NET "LED(4)": LOC="C11";
+NET "LED(5)": LOC="D11";
+NET "LED(6)": LOC="E9";
+NET "LED(7)": LOC="F9";
+
+NET "SEG(0)": LOC="F7";
+NET "SEG(1)": LOC="E7";
+NET "SEG(2)": LOC="B6";
+NET "SEG(3)": LOC="A6";
+NET "SEG(4)": LOC="C5";
+NET "SEG(5)": LOC="D5";
+NET "SEG(6)": LOC="A4";
+
+
+
+NET "SW(0)": LOC="L13";
+NET "SW(1)": LOC="L14";
+NET "SW(2)": LOC="H18";
+NET "SW(3)": LOC="N17";
+
+NET "BTN(0)": LOC="V4" | PULLDOWN;
+NET "BTN(1)": LOC="D18"  | PULLDOWN;
+NET "BTN(2)": LOC="H13" | PULLDOWN;
+NET "BTN(3)": LOC="K17" | PULLDOWN;
+
+NET "ROT_BTN": LOC="V16" | PULLDOWN;

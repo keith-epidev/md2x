@@ -1,0 +1,557 @@
+
+%% ----------------------------------------------------------------
+%% Thesis.tex -- MAIN FILE (the one that you compile with LaTeX)
+%% ---------------------------------------------------------------- 
+
+% Set up the document
+\documentclass[a4paper, 11pt, oneside]{Thesis}  % Use the "Thesis" style, based on the ECS Thesis style by Steve Gunn
+\graphicspath{{Figures/}}  % Location of the graphics files (set up for graphics to be in PDF format)
+
+% Include any extra LaTeX packages required
+\usepackage[square, numbers, comma, sort&compress]{natbib}  % Use the "Natbib" style for the references in the Bibliography
+\usepackage{verbatim}  % Needed for the "comment" environment to make LaTeX comments
+\usepackage{vector}  % Allows "\bvec{}" and "\buvec{}" for "blackboard" style bold vectors in maths
+\usepackage{tabulary}
+\usepackage{tikz}
+\usepackage{gantt}
+\usepackage{rotating}
+\usepackage{pdflscape}
+\usepackage{Sweave}
+\usepackage{graphics}
+\usepackage{float}
+
+\newcommand{\includecode}[2][VHDL]{\lstinputlisting[caption=#2, escapechar=, style=custom#1]{#2}}
+
+\lstdefinestyle{customc}{
+  belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  frame=L,
+  xleftmargin=\parindent,
+  language=Matlab,
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+  keywordstyle=\bfseries\color{green!40!black},
+  commentstyle=\itshape\color{purple!40!black},
+  identifierstyle=\color{blue},
+  stringstyle=\color{orange},
+}
+
+\lstdefinestyle{customasm}{
+  belowcaptionskip=1\baselineskip,
+  frame=L,
+  xleftmargin=\parindent,
+  language=[x86masm]Assembler,
+  basicstyle=\footnotesize\ttfamily,
+  commentstyle=\itshape\color{purple!40!black},
+}
+
+\lstset{escapechar=@,style=customc}
+
+
+
+\hypersetup{urlcolor=blue, colorlinks=true}  % Colours hyperlinks in blue, but this can be distracting if there are many links.
+
+%% ----------------------------------------------------------------
+\begin{document}
+\frontmatter      % Begin Roman style (i, ii, iii, iv...) page numbering
+% Set up the Title Page
+\title  {Trigonometry Calculator}
+\authors  {\texorpdfstring
+            {\href{mailto:k9brown@students.latrobe.edu.au}{Keith Brown}}
+            {Author Name}}
+\addresses  {\groupname\\\deptname\\\univname}  % Do not change this here, instead these must be set in the "Thesis.cls" file, please look through it instead
+\date       {\today}
+\subject    {}
+\keywords   {}
+
+\maketitle
+
+
+%% ----------------------------------------------------------------
+
+
+\setstretch{1.3}  % It is better to have smaller font and larger line spacing than the other way round
+
+% Define the page headers using the FancyHdr package and set up for one-sided printing
+\fancyhead{}  % Clears all page headers and footers
+\rhead{\thepage}  % Sets the right side header to show the page number
+\lhead{}  % Clears the left side page header
+
+\pagestyle{fancy}  % Finally, use the "fancy" page style to implement the FancyHdr headers
+
+%% ----------------------------------------------------------------
+
+
+#(abstract.tex){
+This document describes the project plan for an inexpensive 3D printer. The project is developed for the final year engineering project at La Trobe University by Keith Brown.
+
+The printer will be in the form of a delta machine. The intention is to reduce the number of components and utilise cheaper hardware while still achieving a fast accurate print. The electronics will not be a direct derivative of current implementations. Experimentation with alternative architecture will be trialled with the goal of delivering a more computational capable system.
+
+An introduction into 3D Printing and its concepts, advantages and issues is outlined. The commercial viability for both commercial and consumer markets is described. This projects primary, secondary and tertiary objectives are listed. The strategies to achieve these goals is also described, followed by budget requirements and lastly a detailed schedule is included.
+}
+% The Abstract Page
+\addtotoc{Abstract}  % Add the "Abstract" page entry to the Contents
+\abstract{
+\addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
+
+#data
+
+}
+
+\clearpage  % Abstract ended, start a new page
+
+%% ----------------------------------------------------------------
+
+
+\lhead{\emph{Contents}}  % Set the left side page header to "Contents"
+\tableofcontents  % Write out the Table of Contents
+
+%% ----------------------------------------------------------------
+
+
+\mainmatter
+\pagestyle{fancy}
+
+{\color{red}File /home/keith/Documents/deltabot/documentation/project\_plan//design not found.}
+
+{\color{red}File /home/keith/Documents/deltabot/documentation/project\_plan//testing not found.}
+
+{\color{red}File /home/keith/Documents/deltabot/documentation/project\_plan//conclusion not found.}
+
+\section{Appendix}
+
+\section{Reference Documents}
+
+The following references have been used to support the design of this project.
+
+Existing Documentation
+----------------------
+- Keith Brown. Delta printer Design Document: March 2013
+- La Trobe University. ELE4EPA/EPB Subject learning guide: Marth 2013
+
+Vendor Documentation
+--------------------
+- TI. MSP430x2xx Family Guide.  http://www.ti.com/lit/ug/slau144i/slau144i.pdf: January 2012
+- Atmel. AT32UC3L Series Guide. http://www.atmel.com/Images/doc32099.pdf: January 2012
+
+Other Documentation
+-------------------
+- Reprap Foundation website/forum http://reprap.org/: March 2013
+- Brian W. Kernighan and Dennis M. Ritchie. The C Programming Language, Second Edition. Prentice Hall, Inc., 1988.
+\section{Abbreviations}
+
+--------------------------------------------------------------------------------|
+*ABS*	| *A*crylonitrile *b*utadiene *s*tyrene (plastic)			|
+*AVR*	| Atmel's *A*lf (Egil Bogen) and *V*egard (Wollan)'s *R*ISC processor	|
+*CAD*	| *C*omputer-*a*ided *d*esign						|
+*CPU*	| *C*entral *P*rocessing *U*nit						|
+*CRC*	| *C*yclic *R*edundancy *C*heck						|
+*FPU*	| *F*loating *P*oint *U*nit						|
+*MSP*	| *M*ixed *S*ignal *P*rocessor						|
+*LCD*	| *L*iquid *C*rystal *D*isplay						|
+*PLA*	| *P*oly*l*actic *a*cid (plasic)					|
+*SPI*	| *S*erial *P*eripheral *I*nterface					|
+*SVG*	| *S*calable *V*ector *G*raphics					|
+*UART*	| *U*niversal *A*synchronous *R*eciever/*T*ransmitter			|
+*USB*	| *U*niversal *S*erial *B*us						|
+--------------------------------------------------------------------------------|
+	List of Abbreviations
+
+
+
+
+
+
+\end{document}  % The End
+%% ----------------------------------------------------------------
+
+
+
+
+
+
+Engineering Project
+Delta Printer Project Plan
+Keith Brown
+Department of Electronic Engineering
+Faculty of Science, Technology and Engineering
+La Trobe University
+#(abstract.tex){
+This document describes the project plan for an inexpensive 3D printer. The project is developed for the final year engineering project at La Trobe University by Keith Brown.
+
+The printer will be in the form of a delta machine. The intention is to reduce the number of components and utilise cheaper hardware while still achieving a fast accurate print. The electronics will not be a direct derivative of current implementations. Experimentation with alternative architecture will be trialled with the goal of delivering a more computational capable system.
+
+An introduction into 3D Printing and its concepts, advantages and issues is outlined. The commercial viability for both commercial and consumer markets is described. This projects primary, secondary and tertiary objectives are listed. The strategies to achieve these goals is also described, followed by budget requirements and lastly a detailed schedule is included.
+}
+\chapter{Acknowledgements}
+\label{Acknowledgements}
+\lhead{ \emph{Acknowledgements}}
+
+I would like to share my sincere gratitude to Dr. Robert Ross, my primary supervisor whom has given me so much creative control. Robert has provided constant assistance. He also has bestowed me with his precious technical expertise. Adam Console my co-supervisor, has helped steer this project in the right direction on numerous occasions. It was Adam that suggested the delta machine design. His diverse knowledge is irreplaceable.
+
+The RepRap community has paved the way for projects like this. There is a wealth of freely available information on their website and forums. I hope that I will be able to express my appreciation by giving something back to the open source community.
+
+I would like to personally thank everyone who has supported me. I have discussed this project with many of my friends and family, who have contributed with valuable support and feedback.
+Contents
+List of Tables
+List of Figures
+\section{Introduction}
+
+3D Printers have received a lot of media attention recently. Additive manufacturing has been around for at least 30 years<cite>1, 2</cite>. However, in the last five years popularity has increased dramatically due to the availability of much cheaper entry level machines. It is now possible for the general public to purchase pre-assembled printers at a similar cost as a personal computer.
+
+There will always be innovation and dangers associated with a new technology. We already have prime examples of both aspects; At a 2011 TED talk, Dr Anthony Atala presented a human kidney prototype that his team had printed<cite>3</cite>. Late 2012 Cody Wilson uploaded a video to Youtube that showed himself firing a gun mostly composed of 3D printed parts<cite>4</cite>.
+
+The environment will benefit from this new way of producing products. Firstly, plastic items can be recycled and reused to create new, more useful items. This not only reduces costs but it also eliminates transportation of new items. They no longer need to be imported and transported all over the country, they can just be downloaded.
+
+Whilst companies like Objet and Stratasys produce printers for the commercial sector, it is hobbyist style printers that have spread awareness of such technology. The Reprap foundation has produced numerous models under the GPL licence. Their main goal is to produce an affordable device that can self replicate. All of the designs are available to download and print. Makerbot Industries is a comercial operation that was born from an open source community.
+
+Online services such as Shapeways provides 3D printing services. This allows their customers to receive a higher quality print without investing in expensive hardware. CAD design community sites have also been very popular such as 'thingiverse.com'. There are over 30,000 free designs including a key-chain fob, mobile phone case, model radial engine and even 3D printer parts and upgrades.
+\section{3D printing methods}
+
+Additive manufacturing is the process of constructing a three-dimensional object by depositing material in discrete layers. Conversely, traditional machining methods are subtractive; material is removed to expose the desired object. This printer utilises an additive method as it produces fine plastic layers to build an object. There are many different approaches of additive manufacturing. The main four methods are outlined in the following paragraphs.
+
+Fused deposition modelling or FDM is the method of extruding thermoplastics in layers.
+ This project is considered to use an FDM method as it extrudes fine plastic layers to build an object. The printer deposits plastic material by melting it through a hot extruder. The extruder resembles a metal funnel that takes solid plastic and produces liquid plastic out of a small hole. The liquid plastic can be fused to previously deposited material. The machine must physically move the extruder around an area, while placing plastic where it is required. This process is repeated layer by layer to achieve a three-dimensional object. The technology was invented by S. Scott in 1980 <cite>2</cite>.
+
+Selective laser sintering or SLS is a technique that allows either metal, plastic, ceramic and glass powder to be fused together with a powerful laser. The laser targets cross-sections, selectively fusing a fine layer of powder to the object. Once a layer has been complete, a fresh layer of powder is dusted over the object and the process repeats. The left over material acts as a support for the object being manufactured. After the procedure has finished, the excess powder can be removed and used for the next print. The process is slow, producing porous but strong results.
+
+Stereolithography or SLA is the method of using an ultraviolet light to cure a photopolymer. The printing platform sits in a vat of liquid resin. The light targets a cross-section of the desired object and the exposed resin will solidify. Once the layer has completed, the platform will move down allowing for another layer to be added to the model. SLA produces accurate results but is a very slow process. SLA has received a lot of attention recently as the method has been adopted by a handful of young start ups. It offers a much greater result compared to the current generation of FDM printers. However the hardware and resin is very expensive.
+
+Laminated object manufacturing or LOM is another rapid prototyping method. It uses a laser or a knife to cut out layers from an adhesive-coated material. The layer is then heated and pressed onto the previous layers. A new sheet of material is rolled in place and the process repeats. This method can be relatively cheap as readily available material such as paper can be used.
+
+Each process is managed by a technique called '~computer numerical control~' or CNC. This method is essentially computer controlled automation. Three-dimensional models are developed using '~Computer aided design~' or CAD. These CAD models are processed to produce CNC commands known as G-code. The G-codes are instructions that tell the  machine how to produce the CAD model.
+\section{FDM Articulation implementations}
+
+A Cartesian Gantry structure is the most common implementation. It consists of a linear actuator for each axis of freedom. The horizontal plane generally has a sturdy rail that a bridge is mounted on, this rail permits motion in the x direction. A carriage is mounted to a rail that connects the bridge together. The carriage can move along this rail and therefore permits motion in the y direction. Lastly the carriage has a tool that is capable of actuating in and out in the z direction.
+
+The Gantry system is a well tested framework and is industry standard. It can be found in many applications from small desktop CNC machines to huge container cranes. While the frame is very strong, each linear actuator is dependent on another. The bridge actuator has to be the strongest as it must provide enough force to move the bridge, carriage and tool. This becomes an issue for fast moving applications as the momentum will be relatively large.
+
+The Delta robot has three vertical rails placed in the formation of an equilateral triangle. Each linear actuator moves in the same direction and has kinetic linkages that connect each carriage to a central platform. This platform can be positioned by placing each carriage at a certain height. This is an improvement over the Gantry setup because each actuator shares the load equally. It is capable of faster speeds because there is less load on the tool end.
+\section{FDM accuracy and materials}
+
+Currently, leading consumer 3D printers can produce objects with layers heights of 0.1 millimetres. Such an accurate print will generally take around five hours for a medium sized print. Pricing for a mostly pre-assembled unit is around USD$2,200.
+
+Currently there are two main types of plastics readily available for FDM printing. Firstly Acrylonitrile Butadiene Styrene or ABS is a strong material. It is a oil based plastic that can be melted and extruded at a temperature of approximately 105 °C. It is fairly cheap at $40 a Kg. It does contract slightly as it cools.
+
+Polylactic Acid or PLA is another alternative that can be used for FDM printing. It is marginally less expensive then ABS. While being more brittle then ABS it does not contract as much. PLA is a biodegradable polymer and actually is produced by corn starch. Because of it's lower melting point it is not ideal for applications related to heat.
+\section{Proposed Solution}
+
+The delta machine design has been adopted for this project. Recently the Rostock project has spawned many derivatives, most achieving cheaper construction over the last generation of reprap printers. Delta machines have been used for many applications including; pick and placers, packaging and production line sorters.
+
+Its simplicity helps reduce hardware costs. But the biggest advantage is the machines speed and accuracy. If the central platform is kept light, fast acceleration can be maintained. This permits the machine to perform in a sporadic manner while maintaining an accurate position.
+
+The electronics system will not be a derivative of current implementations. I will experiment with different architectures with the goal of producing a much cheaper but fully capable system. The components will be made modular to allow for a high level of customisation. This helps to keep the main-board costs low but still permits additional more expensive upgrades such as a Ethernet add on.
+\section{Commercial Viability}
+
+This old technology is becoming established in a new market. While it becomes more accessible, new opportunities begin to emerge and intern, increases demand. Prices are decreasing, materials are becoming more accessible and there is an increasing amount of printable designs being uploaded to the Internet. The later attributes the most positive influence to the 3D printing market. This makes an old product more valuable.
+
+\begin{figure}[H]
+\centering%
+\includegraphics{Growth of CAD designs on thingiverse.com}
+\caption{/img/growth.png}
+\label{fig:FigureExample}
+\end{figure}
+It is clear that this market is expanding at a promising rate. Furthermore because there is such a diverse range of neighbouring markets that will benefit from this technology, it is likely that it will be supported by commercial demand alone. Applications for 3D printing have yet to be completely discovered, the boundaries are always being pushed by innovators. It is apparent that a very successful industry has been created.
+
+
+Commercial Market
+-----------------
+3D printing can help many different businesses. For example; Product designers can produce prototypes within a few hours, prosthetics can be made for a person more frequently and engineers can produce custom parts easily. It is important to note that even if a 3D printer existed in every home, there are still many skills that can't be replaced by automation. Downloading a generalised product will never replace a professionally crafted custom version. 3D printing just streamlines the development cycle and promotes rapid growth.
+
+Rapid prototyping reduces development costs and creates new opportunities. It is possible that we will see a rise in hardware start-ups similar to the influx of software start-ups we have seen recently. It may be more feasible for a young company to attempt entering into established markets with little overhead.
+
+Consumer Market
+---------------
+There is a number of reasons why an individual might desire a 3D printer. It may help reduce our consumption rate by allowing us to easily repair broken household items. While it is unlikely for the average person to need a miniature factory, it is ideal for hackers, hobbyists, artists and craftsmen
+
+Currently, the largest consumer market for 3D printing falls inside the open source community. Although intellectual property is freely shared, support and labour is very valuable. These customers are generally open to early adoption of new technology. The network of passionate, diversely skilled customers strive to improve the current designs and collaboratively innovate the CNC scene.
+\section{Project Objectives}
+
+There are many components required to complete this project. To have a functioning 3D printer, it is essential that all primary objectives are completed. Secondary Objectives may be attempted if the primary goals have been satisfied before the development deadline. These potential tasks would greatly improve the final product. Finally, the tertiary objectives are considered not in the current project scope due to budget and time constraints. They are intented for future improvement.
+\section{Primary Objectives}
+
+- Design and build a delta CNC machine
+- Produce cheap electronics to control the machine
+- Develop Kit like hardware / frame
+- Develop a plotter attachment
+	- Develop a plastic extruder attachment
+		- PID controlled heater element
+		- Plastic filament feeder
+- Allow for user configurations
+	- Vertical resolution
+	- set heat control
+	- Speed
+- Develop Software
+	- STL to curve converter and slicer
+	- Computer Interface driver and software
+	- Command interpreter for printer (G-code)
+\section{Secondary Objectives}
+
+- LCD to show current status, settings and monitor variables
+- Collapsable frame for easy transport (useful for demonstrations)
+- Abstract hardware code to cross compile for AVR
+- Experiment with substituting stepper motors with  brushed motors and rotary hall sensors 
+- Develop a solid dispenser attachment.
+	- Create edible objects with chocolate
+	- Print ceramics
+\section{Tertiary Objectives}
+
+- Design and demonstrate a a close to self replicating printer. Produce all components except for the electronics.
+- Implement an Ethernet add on
+	- Distributed printing service. Many printers can team and help build components in parallel.
+	- Conveyor belt so that a queue of items can be constantly produced
+- Add a Horizontal actuator attachment so that objects larger then the printing bed can be produced
+- Develop Plastic Recycler
+- Wood/PCB router attachment
+\section{Objective Strategy}
+
+Completion of the primary goals are essential to the projects success. To achieve each task we must employ various project management skills such as progress monitoring, development strategies, risk management and schedule planning.
+\section{Design Strategy}
+
+The hardware design will be in the form of a delta machine. These devices can perform fast accurate tasks as the light-weight print head is capable of quick acceleration. This design has been adopted from a current reprap project<cite>5</cite>. The delta machine will use less parts then a traditional Cartesian machine.
+
+For a detailed overview of this projects design please refer to the [Project Report](/report)
+
+Hardware
+--------
+The frame will be constructed with aluminium beams. It have a small enclosed area for the electronics and power supply. The printer bed is mounted on top of the case. There is a beam on the top level that intersects the face in half. This is primarily for a place to mount the plastic feeder but also serves as a structural support beam. The joins will be printed on another 3D printer. Their design will facilitate modifications.
+
+\begin{figure}[H]
+\centering%
+\includegraphics{Frame Design}
+\caption{img/frame.svg}
+\label{fig:FigureExample}
+\end{figure}
+Electronic Systems
+------------------
+
+\begin{figure}[H]
+\centering%
+\includegraphics{System block diagram}
+\caption{/img/block_diagram.svg}
+\label{fig:FigureExample}
+\end{figure}
+The electronics will consist of many smaller systems working in unison. This means we require multiple low-powered microcontrollers opposed to one powerful central processing unit. The system can be improved after it has been manufactured by connecting additional devices to the SPI bus.
+
+Software
+--------
+Both software for a host computer and for the actual device will need to be developed.
+
+A slicer application that breaks three dimensional CAD designs into multiple two dimensional frames is required. Drivers for connecting to the printer and communicating with its sensors and diagnostics is essential. A simple protocol needs to be created that allows a host computer to queue a CAD design for print is also needed.
+
+The printer needs to be able to translate the sliced CAD designs into instructions that will command each actuator and allow the platform to follow a desired path. A control system will need to monitor and manipulate the extruder temperature. Finally the printer must be able to communicate with a host device. 
+\section{Development strategy}
+
+The '/Agile Development/' method will be utilised during the project. It will help promote fast and adaptive development. Agile development starts with a large list of tasks, these are generally broken down into individual modular components.
+
+An iterative process is performed once a week. It consists of:
+- Select the most valuable task from the global task list.
+- Analyse the task
+- Develop
+- Test
+- Integrate
+- After one week is over report back to supervisor
+
+After an iteration the next week must be planned by:
+- Analyse the last tasks status
+- Review the whole projects status
+- Commit changes to production code base (if goals were satisfactory)
+- Plan next iteration (select more tasks or continue on current)
+- Reflect on supervisor's feedback.
+
+[Agile Development Process](/img/agile_diagram.svg)
+
+The benefit of a scrum like method is that it will allow us to be far more  responsive to unseen problems that may arise. The projects primary goals can possibly be modified during project development if something does not go to plan or even if a new technology / discovery is made.
+\section{Risk Analysis}
+
+Risk mitigation is one of the most important aspects of managing a project. Possible predicted risks should be actively avoided. However not all are are forseen or are avoidable, in such case we should attempt to minimise the impact.
+
+List of risks
+-------------
+
+Risk (event)				| Likelihood (H/M/L) 	| Impact (H/M/L)	| Action |
+--------------------------------------------------------------------------------------------------
+Development starts late 		| M 			| L 			| 2 	|
+Schematics Incorrect			| M			| L			| 1	|
+PCB Incorrect				| M			| L			| 1	|
+Unobtainable parts			| H			| L			| 3	|
+Components break			| H			| M			| 3	|
+Underestimate Project time frame	| M			| H			| 2	|
+Underestimate Complexity		| H			| H			| 4	|
+Implementation does not function	| M			| M			| 1	|
+Incomplete project threat		| L			| H			| 4	|
+Code is lost / corrupted		| L			| L			| 5	|
+H-beams are not strong enough		| L			| M			| 1	|
+--------------------------------------------------------------------------------------------------
+			List of possible risks
+
+
+List of actions
+---------------
+
+Action 	| Comment
+--------------------------------------------------------------------------------------------------
+1	| Diagnose and debug, attempt to develop work around depending on project stage. Redesign if problem is critical.
+2	| Adjust Gantt chart, design new tactics and re-prioritise if required.
+3	| Obtain new components. If unavailable or time frame does not permit, attempt to use alternative.
+4	| Discontinue development on selected components. Adopt complete and tested consumer alternatives.
+5	| Pull latest commit from off site Git repository server. Backups should be made nightly.
+--------------------------------------------------------------------------------------------------
+				List of actions
+\section{Project Management}
+
+\section{Important Dates}
+
+Date		| Comment					|
+----------------------------------------------------------------|
+March Mon 11th			| Introduction to Project	|
+April Weds 3 - Fri 5		| Mid-semester Vacation		|
+April Mon 8th			| Project Plan due		|
+June Tues 11th - Thurs 13th	| Mid-Year Presentations	|
+June Fri 14th			| Journals due			|
+July Fri 5 - Fri 26		| Mid-year Vacation		|
+September Mon 30 - October Fri 4| Mid-semester Vacation		|
+October Mon 28th		| Project Thesis due		|
+October  Weds 30th		| Poster due			|
+November Mon 4th - Weds 6th	| Final Presentations &amp; Demonstrations|
+----------------------------------------------------------------|
+	List of important dates
+\section{Schedule}
+
+A strict schedule must be kept to ensure successful completion of this project. I have included a buffer month to help cater for unseen problems. If the project is completed before this time I may attempt more of the secondary objectives. A second and third revision might be possible if the iterations are kept on time. A third generation would be ideal as it would represent a well configured device that has been thoroughly tested and improved.
+
+[Gantt Chart](/img/gantt.png)
+\section{Budget}
+
+There are many consumer 3D printers on the market currently. They range from $450 to over $20,000. One of the primary goals of this project is to produce inexpensive electronics to help reduce the overall cost of 3D printing. $450 is very competitive if the quality is reasonable. The final target cost for this project is a base model for $300 AUD. I have considered many aspects that will help minimise costs:
+
+- MSP430 value line microcontrollers
+- Modular stackable mainboard
+- Optional components: Flash memory, LCD and Ethernet.
+- Minimal hardware
+- Heavy gauge Fishing wire instead of typical belt drive
+- Experiment with brushed motors instead of stepper motors
+- Use common hardware store H section beam opposed to expensive general purpose construction systems (motedis,system30,openbeam). Will require more complex joins / drilling but at $5/m vs $25/m it is a safe investment.
+
+Revenue
+-------
+La Trobe University kindly provides a $200 spending budget for final year projects. I will personally fund the remaining fees.
+
+Expenses
+--------
+The following resources should permit two iterations by recycling most parts.
+
+Item						| Cost	|
+------------------------------------------------|-------|
+Aluminium Extrusions, joins and frame hardware	| budget.md00	|
+PCB Fabrication					| $50	|
+Electronic components				| $80	|
+4 Stepper motors				| $80	|
+2kg ABS Plastic					|  $80	|
+Extruder block					|  $20	|
+Power supply					|  $30	|
+------------------------------------------------|-------|
+Total						|  $450	|
+------------------------------------------------|-------|
+	Budget allocation
+
+Non-budgeted resources
+----------------------
+
+Item					| Provided By 				|
+--------------------------------------------------------------------------------|
+MSP430 USB programmer dongle		| Robert Ross				|
+Host computer and development software	| Keith Brown				|
+Soldering equipment			| Department of Electronics Engineering	|
+CRO and testing equipment		| Department of Electronics Engineering	|
+Printed object cleaning tools		| Keith Brown				|
+Breadboard, Pliers, cutters, Multimeter and other general electronic items| Keith Brown	|
+--------------------------------------------------------------------------------|
+	Non-budgeted resources
+
+\chapter{Conclusion}
+\label{Conclusion}
+\lhead{ \emph{Conclusion}}
+
+The macro and micro effects of an introduction to a personal manufacturing device is fascinating. It has the possibility to facilitate innovation in many areas. 
+Whether it is a domestic or commercial application, 3D printing can help produce specialised parts, reduce prototyping time and cost, promote first hand recycling and entice the next generation into a technical field.
+
+Low cost additive manufacturing is still in early development. A young underdeveloped device or idea presents an opportunity for improvement. This technology will continue to advance as demand increases. The delta style of 3D printers already is faster and more accurate then the traditional Cartesian machines.
+\section{Appendix}
+
+\section{Reference Documents}
+
+The following references have been used to support the design of this project.
+
+Existing Documentation
+----------------------
+- Keith Brown. Delta printer Design Document: March 2013
+- La Trobe University. ELE4EPA/EPB Subject learning guide: Marth 2013
+
+Vendor Documentation
+--------------------
+- TI. MSP430x2xx Family Guide.  http://www.ti.com/lit/ug/slau144i/slau144i.pdf: January 2012
+- Atmel. AT32UC3L Series Guide. http://www.atmel.com/Images/doc32099.pdf: January 2012
+
+Other Documentation
+-------------------
+- Reprap Foundation website/forum http://reprap.org/: March 2013
+- Brian W. Kernighan and Dennis M. Ritchie. The C Programming Language, Second Edition. Prentice Hall, Inc., 1988.
+\section{Abbreviations}
+
+--------------------------------------------------------------------------------|
+*ABS*	| *A*crylonitrile *b*utadiene *s*tyrene (plastic)			|
+*AVR*	| Atmel's *A*lf (Egil Bogen) and *V*egard (Wollan)'s *R*ISC processor	|
+*CAD*	| *C*omputer-*a*ided *d*esign						|
+*CPU*	| *C*entral *P*rocessing *U*nit						|
+*CRC*	| *C*yclic *R*edundancy *C*heck						|
+*FPU*	| *F*loating *P*oint *U*nit						|
+*MSP*	| *M*ixed *S*ignal *P*rocessor						|
+*LCD*	| *L*iquid *C*rystal *D*isplay						|
+*PLA*	| *P*oly*l*actic *a*cid (plasic)					|
+*SPI*	| *S*erial *P*eripheral *I*nterface					|
+*SVG*	| *S*calable *V*ector *G*raphics					|
+*UART*	| *U*niversal *A*synchronous *R*eciever/*T*ransmitter			|
+*USB*	| *U*niversal *S*erial *B*us						|
+--------------------------------------------------------------------------------|
+	List of Abbreviations
+@ONLINE{1,
+	Author = {Valavaara, Viljo},
+	Month = {October},
+	Title = {Topology fabrication apparatus},
+	Url = {www.google.com/patents/US4749347},
+	Year = {1986}}
+
+@ONLINE{2,
+	Author = {Crump, S. Scott},
+	Month = {October},
+	Title = {Apparatus and method for creating three-dimensional objects},
+	Url = {http://www.google.com/patents?vid=5121329},
+	Year = {1989}}
+
+@ONLINE{3,
+	Author = {Atala, Anthony},
+	Month = {March},
+	Title = {Printing a human kidney},
+	Url = {http://www.ted.com/talks/anthony_atala_printing_a_human_kidney.html},
+	Year = {2011}}
+
+@ONLINE{4,
+	Author = {Carr, Erin Lee},
+	Month = {March},
+	Title = {3D Printed Guns (Documentary)},
+	Url = {http://www.youtube.com/watch?v=DconsfGsXyA},
+	Year = {2013}}
+
+@ONLINE{5,
+	Author = {Rocholl, Johann C.},
+	Title = {Rostock - Delta robot},
+	Url = {http://reprap.org/wiki/Rostock},
+	Year = {2012}}
+
+@ONLINE{6,
+	Author = {Brody, Paul and IBM and Econolyst},
+	Title = {Research Preview: 3D Printing Goes Exponential},
+	Url = {https:
+	Month = {March},
+	Year = {2013}}
