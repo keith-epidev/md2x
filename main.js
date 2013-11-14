@@ -115,12 +115,11 @@ function parse_file(file,level){
 		
 	//find templates with data
 	while(true){
-		var patt = /\#\((.+)\){\n(.+)}/mg;
+		var patt = /\#\((.+)\){\n((.*\n)*)}/;
 		var m = patt.exec(data);
 		if(m == null) break;
 
-		console.log(m[1]);
-//		data =	data.replace(patt,load_templates(m[1],m[2]),1);
+		data =	data.replace(patt,load_templates_data(m[1],m[2]),1);
 	}
 
 	//find headers
