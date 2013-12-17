@@ -3,7 +3,7 @@
 %% ---------------------------------------------------------------- 
 
 % Set up the document
-\documentclass[a4paper, 11pt, oneside]{Thesis}  % Use the "Thesis" style, based on the ECS Thesis style by Steve Gunn
+\documentclass[a4paper, 11pt, twoside]{Thesis}  % Use the "Thesis" style, based on the ECS Thesis style by Steve Gunn
 \graphicspath{{Figures/}}  % Location of the graphics files (set up for graphics to be in PDF format)
 
 % Include any extra LaTeX packages required
@@ -18,15 +18,18 @@
 \usepackage{Sweave}
 \usepackage{graphics}
 \usepackage{float}
+\usepackage{hyperref}
+\usepackage{placeins}
 
-\newcommand{\includecode}[2][VHDL]{\lstinputlisting[caption=#2, escapechar=, style=custom#1]{#2}}
+
+\newcommand{\includecode}[2][C]{\lstinputlisting[caption=#2, escapechar=, style=custom#1]{#2}}
 
 \lstdefinestyle{customc}{
   belowcaptionskip=1\baselineskip,
   breaklines=true,
   frame=L,
   xleftmargin=\parindent,
-  language=Matlab,
+  language=C,
   showstringspaces=false,
   basicstyle=\footnotesize\ttfamily,
   keywordstyle=\bfseries\color{green!40!black},

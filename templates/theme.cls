@@ -393,7 +393,16 @@
   \null\;\vbox{\kern\ht\@ne\box\tw@}\endgroup}
 \makeatother
 
-
+\makeatletter
+\AtBeginDocument{%
+  \expandafter\renewcommand\expandafter\subsection\expandafter
+    {\expandafter\@fb@secFB\subsection}%
+  \newcommand\@fb@secFB{\FloatBarrier
+    \gdef\@fb@afterHHook{\@fb@topbarrier \gdef\@fb@afterHHook{}}}%
+  \g@addto@macro\@afterheading{\@fb@afterHHook}%
+  \gdef\@fb@afterHHook{}%
+}
+\makeatother
 
 
 

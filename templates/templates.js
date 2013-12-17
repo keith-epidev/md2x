@@ -45,8 +45,8 @@ load_templates_data = function(file,body){
 
 	//get rid of data define first
 	var r = new RegExp("#data",'g');
-	console.log(r);
-	console.log(body);
+	//console.log(r);
+	//console.log(body);
 	data = data.replace(r,body);
 
 	//loop through defines and replace

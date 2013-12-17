@@ -1,20 +1,111 @@
-\contentsline {chapter}{\numberline {1}Data Pre-processing}{1}{chapter.2}
-\contentsline {section}{\numberline {1.1}K-mers Extraction}{1}{section.3}
-\contentsline {section}{\numberline {1.2}Generation of position frequency matrices}{3}{section.44}
-\contentsline {section}{\numberline {1.3}Background probability feature}{3}{section.58}
-\contentsline {section}{\numberline {1.4}Relative mismatch score feature}{4}{section.71}
-\contentsline {chapter}{\numberline {2}Generation of Training and Testing Datasets}{5}{chapter.85}
-\contentsline {section}{\numberline {2.1}Pattern pairs for building the learner mode}{5}{section.86}
-\contentsline {section}{\numberline {2.2}Pattern pairs for testing the learner model on the training dataset}{6}{section.88}
-\contentsline {section}{\numberline {2.3}Pattern pairs for testing the learner model on the test dataset}{7}{section.90}
-\contentsline {section}{\numberline {2.4}Differences between the datasets}{7}{section.92}
-\contentsline {chapter}{\numberline {3}Neural Networks Approach}{8}{chapter.93}
-\contentsline {section}{\numberline {3.1}Neural networks architecture}{8}{section.95}
-\contentsline {section}{\numberline {3.2}Learning curve}{9}{section.104}
-\contentsline {section}{\numberline {3.3}Performance}{10}{section.106}
-\contentsline {section}{\numberline {3.4}Results Visualisation}{10}{section.107}
-\contentsline {chapter}{\numberline {4}Discussion and Conclusion}{11}{chapter.109}
-\contentsline {section}{\numberline {4.1}Effects of the size of negative examples}{11}{section.110}
-\contentsline {section}{\numberline {4.2}Merits and shortcomings of the adopted approach}{11}{section.111}
-\contentsline {section}{\numberline {4.3}Conclusions from the results and experience}{12}{section.112}
-\contentsline {section}{\numberline {4.4}Suggestions and further research}{12}{section.113}
+\contentsline {chapter}{Declaration of Authorship}{iii}{dummy.1}
+\vspace {1em}
+\contentsline {chapter}{Abstract}{iv}{dummy.3}
+\vspace {1em}
+\contentsline {chapter}{Acknowledgements}{v}{dummy.4}
+\vspace {1em}
+\contentsline {chapter}{List of Figures}{xi}{dummy.6}
+\contentsline {chapter}{List of Tables}{xiii}{dummy.8}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.10}
+\contentsline {section}{\numberline {1.1}3D printing methods}{2}{section.11}
+\contentsline {section}{\numberline {1.2}FDM Articulation implementations}{3}{section.12}
+\contentsline {section}{\numberline {1.3}FDM accuracy and materials}{3}{section.13}
+\contentsline {section}{\numberline {1.4}Proposed Solution}{4}{section.14}
+\contentsline {section}{\numberline {1.5}Commercial Viability}{4}{section.15}
+\contentsline {subsection}{\numberline {1.5.1}Commercial Market}{5}{subsection.17}
+\contentsline {subsection}{\numberline {1.5.2}Consumer Market}{6}{subsection.18}
+\contentsline {chapter}{\numberline {2}Structure and Inverse Kinematics }{7}{chapter.19}
+\contentsline {section}{\numberline {2.1}Structure}{7}{section.20}
+\contentsline {section}{\numberline {2.2}Simple one dimension position}{9}{section.23}
+\contentsline {section}{\numberline {2.3}Platform}{10}{section.25}
+\contentsline {section}{\numberline {2.4}Vertical travel constraints}{10}{section.26}
+\contentsline {section}{\numberline {2.5}Two dimensional position in the vertical plane}{11}{section.27}
+\contentsline {section}{\numberline {2.6}Two dimensional position in the horizontal plane}{11}{section.28}
+\contentsline {section}{\numberline {2.7}Platform in the horizontal plane}{13}{section.30}
+\contentsline {section}{\numberline {2.8}Three dimensional positioning }{13}{section.31}
+\contentsline {section}{\numberline {2.9}Constraints}{14}{section.32}
+\contentsline {subsection}{\numberline {2.9.1}Printing Bed}{14}{subsection.33}
+\contentsline {subsection}{\numberline {2.9.2}Universal Joint Angle Range}{14}{subsection.34}
+\contentsline {chapter}{\numberline {3}Motion}{17}{chapter.36}
+\contentsline {section}{\numberline {3.1}Path Tracing}{17}{section.37}
+\contentsline {section}{\numberline {3.2}Acceleration}{18}{section.38}
+\contentsline {chapter}{\numberline {4}Hardware}{19}{chapter.39}
+\contentsline {section}{\numberline {4.1}Frame}{19}{section.40}
+\contentsline {section}{\numberline {4.2}Frame Brackets}{21}{section.44}
+\contentsline {subsection}{\numberline {4.2.1}Bottom Level}{21}{subsection.45}
+\contentsline {subsection}{\numberline {4.2.2}Top Level}{22}{subsection.47}
+\contentsline {section}{\numberline {4.3}Platform}{22}{section.49}
+\contentsline {section}{\numberline {4.4}Linkages}{23}{section.51}
+\contentsline {section}{\numberline {4.5}Linear Actuators}{23}{section.53}
+\contentsline {subsection}{\numberline {4.5.1}Carriage}{23}{subsection.54}
+\contentsline {subsection}{\numberline {4.5.2}Belt Drive}{24}{subsection.56}
+\contentsline {subsection}{\numberline {4.5.3}Pulley and idlers}{24}{subsection.57}
+\contentsline {subsection}{\numberline {4.5.4}Motors}{25}{subsection.59}
+\contentsline {section}{\numberline {4.6}Tool End}{25}{section.61}
+\contentsline {subsection}{\numberline {4.6.1}Plotter}{25}{subsection.62}
+\contentsline {subsection}{\numberline {4.6.2}FDM Tool}{26}{subsection.65}
+\contentsline {subsubsection}{\numberline {4.6.2.1}Extruder}{26}{subsubsection.66}
+\contentsline {subsubsection}{\numberline {4.6.2.2}Bowden Filament Feeder}{27}{subsubsection.69}
+\contentsline {chapter}{\numberline {5}Electronic Systems}{29}{chapter.71}
+\contentsline {section}{\numberline {5.1}Methodology}{29}{section.72}
+\contentsline {section}{\numberline {5.2}High Level Diagram}{30}{section.75}
+\contentsline {section}{\numberline {5.3}Microcontroller}{31}{section.77}
+\contentsline {section}{\numberline {5.4}Motor Drivers}{31}{section.78}
+\contentsline {section}{\numberline {5.5}Communication}{32}{section.79}
+\contentsline {section}{\numberline {5.6}Heating elements}{32}{section.80}
+\contentsline {section}{\numberline {5.7}Sensory input}{32}{section.81}
+\contentsline {section}{\numberline {5.8}Power}{33}{section.83}
+\contentsline {section}{\numberline {5.9}Safety}{34}{section.85}
+\contentsline {chapter}{\numberline {6}Software}{35}{chapter.86}
+\contentsline {section}{\numberline {6.1}Major Functions}{35}{section.87}
+\contentsline {section}{\numberline {6.2}Major Constraints}{35}{section.88}
+\contentsline {section}{\numberline {6.3}High Level Diagram}{36}{section.89}
+\contentsline {section}{\numberline {6.4}Sequence Analysis}{37}{section.91}
+\contentsline {section}{\numberline {6.5}Framework}{37}{section.93}
+\contentsline {subsection}{\numberline {6.5.1}Device Abstraction}{37}{subsection.94}
+\contentsline {subsection}{\numberline {6.5.2}Folder Structure }{38}{subsection.107}
+\contentsline {section}{\numberline {6.6}Implementation}{38}{section.108}
+\contentsline {subsection}{\numberline {6.6.1}Portability Header}{38}{subsection.109}
+\contentsline {subsection}{\numberline {6.6.2}G code interpreter}{39}{subsection.138}
+\contentsline {subsection}{\numberline {6.6.3}Positioning}{40}{subsection.145}
+\contentsline {subsection}{\numberline {6.6.4}Motion}{41}{subsection.151}
+\contentsline {chapter}{\numberline {7}Testing and Results}{43}{chapter.154}
+\contentsline {section}{\numberline {7.1}Accuracy}{43}{section.155}
+\contentsline {subsection}{\numberline {7.1.1}Scale}{43}{subsection.156}
+\contentsline {subsection}{\numberline {7.1.2}Distortion}{44}{subsection.158}
+\contentsline {section}{\numberline {7.2}Speed}{45}{section.161}
+\contentsline {section}{\numberline {7.3}Repeatability}{45}{section.162}
+\contentsline {chapter}{\numberline {8}Project Management}{47}{chapter.165}
+\contentsline {section}{\numberline {8.1}Schedule}{47}{section.166}
+\contentsline {section}{\numberline {8.2}Progress}{49}{section.168}
+\contentsline {subsection}{\numberline {8.2.1}Shortcomings}{49}{subsection.169}
+\contentsline {section}{\numberline {8.3}Budget}{50}{section.170}
+\contentsline {subsection}{\numberline {8.3.1}Revenue}{50}{subsection.171}
+\contentsline {subsection}{\numberline {8.3.2}Expenses}{50}{subsection.172}
+\contentsline {subsection}{\numberline {8.3.3}Non-budgeted resources}{51}{subsection.174}
+\contentsline {section}{\numberline {8.4}Risk Analysis}{51}{section.176}
+\contentsline {subsection}{\numberline {8.4.1}List of risks}{51}{subsection.177}
+\contentsline {subsection}{\numberline {8.4.2}List of actions}{52}{subsection.179}
+\contentsline {subsection}{\numberline {8.4.3}Mitigated Risks}{52}{subsection.181}
+\contentsline {chapter}{\numberline {9}Conclusion}{55}{chapter.182}
+\vspace {2em}
+\contentsline {chapter}{\numberline {A}Reference Documents}{57}{appendix.184}
+\contentsline {section}{\numberline {A.1}Existing Documentation}{57}{section.185}
+\contentsline {section}{\numberline {A.2}Vendor Documentation}{57}{section.186}
+\contentsline {section}{\numberline {A.3}Other Documentation}{57}{section.187}
+\contentsline {chapter}{\numberline {B}Abbreviations}{59}{appendix.188}
+\contentsline {chapter}{\numberline {C}Schematics}{61}{appendix.190}
+\contentsline {section}{\numberline {C.1}Top Level}{61}{section.191}
+\contentsline {section}{\numberline {C.2}CPU}{63}{section.193}
+\contentsline {section}{\numberline {C.3}Stepper Driver}{64}{section.195}
+\contentsline {section}{\numberline {C.4}Linear Actuator}{65}{section.197}
+\contentsline {section}{\numberline {C.5}Heater}{66}{section.199}
+\contentsline {section}{\numberline {C.6}Capacitance Sense}{67}{section.201}
+\contentsline {section}{\numberline {C.7}USB UART}{68}{section.203}
+\contentsline {chapter}{\numberline {D}PCB Layout}{69}{appendix.205}
+\contentsline {section}{\numberline {D.1}Top Level}{70}{section.206}
+\contentsline {section}{\numberline {D.2}Bottom Side}{71}{section.208}
+\contentsline {chapter}{\numberline {E}Source Code}{73}{appendix.210}
+\contentsline {chapter}{\numberline {F}Hardware Designs}{75}{appendix.211}
+\vspace {2em}
+\contentsline {chapter}{Bibliography}{77}{dummy.212}
