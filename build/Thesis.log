@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Arch Linux) (format=pdflatex 2013.10.24)  17 DEC 2013 20:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Arch Linux) (preloaded format=pdflatex 2014.10.7)  7 OCT 2014 19:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Thesis.tex
 (./Thesis.tex
-LaTeX2e <2011/06/27>
-Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 79 languages loaded.
 (./Thesis.cls
 Document Class: Thesis 2007/22/02 v1.0 LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/book.cls
@@ -122,7 +122,7 @@ Package: amscd 1999/11/29 v2.0
 \minCDarrowwidth=\dimen116
 )
 (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2004/08/06 v2.20
+Package: amsthm 2009/07/02 v2.20.1
 \thm@style=\toks20
 \thm@bodyfont=\toks21
 \thm@headfont=\toks22
@@ -147,7 +147,7 @@ Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 
 (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks26
 )
 \captionmargin=\dimen117
@@ -161,7 +161,7 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \c@ContinuedFloat=\count102
 )
 (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -309,26 +309,26 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 
 ***
 *** This is a patch for listings 1.3, but you're using
-*** version 1.5b.
+*** version 1.5c.
 ***
 *** Patch file not loaded.
 ***
 
 ) (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
 \c@lstnumber=\count119
 \lst@skipnumbers=\count120
 \lst@framebox=\box30
 )
 (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2013/08/26 1.5b listings configuration
+File: listings.cfg 2014/03/04 1.5c listings configuration
 ))
-Package: listings 2013/08/26 1.5b (Carsten Heinz)
+Package: listings 2014/03/04 1.5c (Carsten Heinz)
  (./lstpatch.sty
 
 ***
 *** This is a patch for listings 1.3, but you're using
-*** version 1.5b.
+*** version 1.5c.
 ***
  *** Patch file not loaded.
 ***
@@ -411,7 +411,7 @@ Package hyperref Info: Bookmarks ON on input line 4688.
 
 (/usr/share/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen146
@@ -489,15 +489,15 @@ Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bdimen=\dimen151
 \calc@Askip=\skip73
 \calc@Bskip=\skip74
-LaTeX Info: Redefining \setlength on input line 76.
-LaTeX Info: Redefining \addtolength on input line 77.
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
 \calc@Ccount=\count140
 \calc@Cskip=\skip75
 )
 \c@vec@elem=\count141
 )
 (/usr/share/texmf-dist/tex/latex/tabulary/tabulary.sty
-Package: tabulary 2008/12/01 v0.9 tabulary package (DPC)
+Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
 
 (/usr/share/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
@@ -518,7 +518,10 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks33
-)
+\pgfutil@tempdima=\dimen158
+\pgfutil@tempdimb=\dimen159
+
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box35
 
@@ -526,14 +529,14 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
 ))
-Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
 
 (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
 
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks34
@@ -542,34 +545,37 @@ Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks36
 ))
-\pgf@x=\dimen158
-\pgf@y=\dimen159
-\pgf@xa=\dimen160
-\pgf@ya=\dimen161
-\pgf@xb=\dimen162
-\pgf@yb=\dimen163
-\pgf@xc=\dimen164
-\pgf@yc=\dimen165
+\pgf@x=\dimen160
+\pgf@y=\dimen161
+\pgf@xa=\dimen162
+\pgf@ya=\dimen163
+\pgf@xb=\dimen164
+\pgf@yb=\dimen165
+\pgf@xc=\dimen166
+\pgf@yc=\dimen167
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
 \c@pgf@counta=\count143
 \c@pgf@countb=\count144
 \c@pgf@countc=\count145
 \c@pgf@countd=\count146
+\t@pgf@toka=\toks37
+\t@pgf@tokb=\toks38
+\t@pgf@tokc=\toks39
 
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+Driver file for pgf: pgfsys-pdftex.def
 
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
 
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count147
 \pgfsyssoftpath@bigbuffer@items=\count148
 )
@@ -594,18 +600,18 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
 
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen166
+\pgfmath@dimen=\dimen168
 \pgfmath@count=\count149
 \pgfmath@box=\box36
-\pgfmath@toks=\toks37
-\pgfmath@stack@operand=\toks38
-\pgfmath@stack@operation=\toks39
+\pgfmath@toks=\toks40
+\pgfmath@stack@operand=\toks41
+\pgfmath@stack@operation=\toks42
 )
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
@@ -615,53 +621,53 @@ Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.te
 x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
 (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
-(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
-(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
+.code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count150
-))
-(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
-\pgf@picminx=\dimen167
-\pgf@picmaxx=\dimen168
-\pgf@picminy=\dimen169
-\pgf@picmaxy=\dimen170
-\pgf@pathminx=\dimen171
-\pgf@pathmaxx=\dimen172
-\pgf@pathminy=\dimen173
-\pgf@pathmaxy=\dimen174
-\pgf@xx=\dimen175
-\pgf@xy=\dimen176
-\pgf@yx=\dimen177
-\pgf@yy=\dimen178
-\pgf@zx=\dimen179
-\pgf@zy=\dimen180
+)) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen169
+\pgf@picmaxx=\dimen170
+\pgf@picminy=\dimen171
+\pgf@picmaxy=\dimen172
+\pgf@pathminx=\dimen173
+\pgf@pathmaxx=\dimen174
+\pgf@pathminy=\dimen175
+\pgf@pathmaxy=\dimen176
+\pgf@xx=\dimen177
+\pgf@xy=\dimen178
+\pgf@yx=\dimen179
+\pgf@yy=\dimen180
+\pgf@zx=\dimen181
+\pgf@zy=\dimen182
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
-\pgf@path@lastx=\dimen181
-\pgf@path@lasty=\dimen182
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen183
+\pgf@path@lasty=\dimen184
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
-\pgf@shorten@end@additional=\dimen183
-\pgf@shorten@start@additional=\dimen184
+File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+\pgf@shorten@end@additional=\dimen185
+\pgf@shorten@start@additional=\dimen186
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
 \pgfpic=\box37
 \pgf@hbox=\box38
 \pgf@layerbox@main=\box39
 \pgf@picture@serial@count=\count151
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
-\pgflinewidth=\dimen185
+File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
+\pgflinewidth=\dimen187
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
 ex
-File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
-\pgf@pt@x=\dimen186
-\pgf@pt@y=\dimen187
-\pgf@pt@temp=\dimen188
+File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
+\pgf@pt@x=\dimen188
+\pgf@pt@y=\dimen189
+\pgf@pt@temp=\dimen190
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
@@ -670,78 +676,85 @@ File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.te
 x
-File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
+\pgfarrowsep=\dimen191
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
-\pgf@max=\dimen189
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen192
 \pgf@sys@shading@range@num=\count152
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
 \pgfexternal@startupbox=\box40
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
 (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 ) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
 (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
 \pgfnodeparttextbox=\box41
 )
 (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
 )
 (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen190
-\pgf@nodesepend=\dimen191
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen193
+\pgf@nodesepend=\dimen194
 )
 (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
 ))
 (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
 (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
 (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen192
-\pgffor@skip=\dimen193
-\pgffor@stack=\toks40
-\pgffor@toks=\toks41
+Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
+
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen195
+\pgffor@skip=\dimen196
+\pgffor@stack=\toks43
+\pgffor@toks=\toks44
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
 x
-File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \pgf@plot@mark@count=\count153
-\pgfplotmarksize=\dimen194
+\pgfplotmarksize=\dimen197
 )
-\tikz@lastx=\dimen195
-\tikz@lasty=\dimen196
-\tikz@lastxsaved=\dimen197
-\tikz@lastysaved=\dimen198
-\tikzleveldistance=\dimen199
-\tikzsiblingdistance=\dimen200
+\tikz@lastx=\dimen198
+\tikz@lasty=\dimen199
+\tikz@lastxsaved=\dimen200
+\tikz@lastysaved=\dimen201
+\tikzleveldistance=\dimen202
+\tikzsiblingdistance=\dimen203
 \tikz@figbox=\box42
-\tikz@tempbox=\box43
+\tikz@figbox@bg=\box43
+\tikz@tempbox=\box44
+\tikz@tempbox@bg=\box45
 \tikztreelevel=\count154
 \tikznumberofchildren=\count155
 \tikznumberofcurrentchild=\count156
 \tikz@fig@count=\count157
  (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count158
 \pgfmatrixcurrentcolumn=\count159
 \pgf@matrix@numberofcolumns=\count160
@@ -750,37 +763,39 @@ File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
 
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 topaths.code.tex
-File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
 ))) (./gantt.sty
 Package: gantt 2011/03/20 Some macros for drawing gantt diagrams using tkiz v.1
 .3
 
 (/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+Package: xkeyval 2014/05/25 v2.7 package option processing (HA)
 
 (/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-\XKV@toks=\toks42
-\XKV@tempa@toks=\toks43
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks45
+\XKV@tempa@toks=\toks46
+)
 \XKV@depth=\count162
-File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+File: xkeyval.tex 2014/05/25 v2.7 key=value parser (HA)
 ))
 (/usr/share/texmf-dist/tex/latex/forloop/forloop.sty
 Package: forloop 2006/09/18 v3.0 For Loops for LaTeX
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 patterns.code.tex
-File: tikzlibrarypatterns.code.tex 2008/01/15 v2.10 (rcs-revision 1.2)
+File: tikzlibrarypatterns.code.tex 2008/01/15 v3.0.0 (rcs-revision 1.2)
 
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibrarypatterns.code.tex
-File: pgflibrarypatterns.code.tex 2008/03/03 v2.10 (rcs-revision 1.13)
+File: pgflibrarypatterns.code.tex 2008/03/03 v3.0.0 (rcs-revision 1.13)
 ))
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 arrows.code.tex
-File: tikzlibraryarrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.0 (rcs-revision 1.1)
 
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
-File: pgflibraryarrows.code.tex 2008/10/27 v2.10 (rcs-revision 1.9)
-\arrowsize=\dimen201
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.0 (rcs-revision 1.16)
+\arrowsize=\dimen204
 ))
 \c@ganttnum=\count163
 \c@ganttwidth=\count164
@@ -791,10 +806,10 @@ File: pgflibraryarrows.code.tex 2008/10/27 v2.10 (rcs-revision 1.9)
 \ganttunitlength=\skip82
 \titleunitlength=\skip83
 \c@gantttitlenum=\count165
-\pgf@layerbox@background=\box44
-\pgf@layerboxsaved@background=\box45
-\pgf@layerbox@foreground=\box46
-\pgf@layerboxsaved@foreground=\box47
+\pgf@layerbox@background=\box46
+\pgf@layerboxsaved@background=\box47
+\pgf@layerbox@foreground=\box48
+\pgf@layerboxsaved@foreground=\box49
 )
 (/usr/share/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
@@ -814,7 +829,7 @@ Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix
 <2008/02/07> (tvz)
 \FV@CodeLineNo=\count166
 \FV@InFile=\read3
-\FV@TabBox=\box48
+\FV@TabBox=\box50
 \c@FancyVerbLine=\count167
 \FV@StepNumber=\count168
 \FV@OutFile=\write4
@@ -924,41 +939,22 @@ File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 (/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count169
-\float@exts=\toks44
-\float@box=\box49
-\@float@everytoks=\toks45
-\@floatcapt=\box50
+\float@exts=\toks47
+\float@box=\box51
+\@float@everytoks=\toks48
+\@floatcapt=\box52
 )
 (/usr/share/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
 (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2013/08/26 1.5b listings language file
+File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
 (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 55.
- (./Thesis.aux
-
-LaTeX Warning: Label `1' multiply defined.
-
-
-LaTeX Warning: Label `1' multiply defined.
-
-
-LaTeX Warning: Label `1' multiply defined.
-
-
-LaTeX Warning: Label `1' multiply defined.
-
-
-LaTeX Warning: Label `1' multiply defined.
-
-
-LaTeX Warning: Label `1' multiply defined.
-
-)
+ (./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
@@ -979,7 +975,8 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
 LaTeX Font Info:    ... okay on input line 58.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 58.
- (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 58.
@@ -999,19 +996,19 @@ Package caption Info: End \AtBeginDocument code.
 (/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count170
-\scratchdimen=\dimen202
-\scratchbox=\box51
+\scratchdimen=\dimen205
+\scratchbox=\box53
 \nofMPsegments=\count171
 \nofMParguments=\count172
-\everyMPshowfont=\toks46
+\everyMPshowfont=\toks49
 \MPscratchCnt=\count173
-\MPscratchDim=\dimen203
+\MPscratchDim=\dimen206
 \MPnumerator=\count174
 \makeMPintoPDFobject=\count175
-\everyMPtoPDFconversion=\toks47
+\everyMPtoPDFconversion=\toks50
 )
 \c@lstlisting=\count176
-\AtBeginShipoutBox=\box52
+\AtBeginShipoutBox=\box54
 Package hyperref Info: Link coloring ON on input line 58.
  (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1028,745 +1025,79 @@ LaTeX Info: Redefining \nameref on input line 58.
 \@outlinefile=\write5
 \openout5 = `Thesis.out'.
 
- ABD: EveryShipout initializing macros
-------------------------------------------------------------------------------
- Title Page
-------------------------------------------------------------------------------
-[1
+ ABD: EveryShipout initializing macros [1{/var/lib/texmf/fonts/map/pdftex/updma
+p/pdftex.map}
 
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
-
-]
-------------------------------------------------------------------------------
- Declaration of Authorship
-------------------------------------------------------------------------------
-<./EE_Statement_of_Authorship.pdf, id=449, 614.295pt x 794.97pt>
-File: ./EE_Statement_of_Authorship.pdf Graphic file (type pdf)
-
-<use ./EE_Statement_of_Authorship.pdf>
-Package pdftex.def Info: ./EE_Statement_of_Authorship.pdf used on input line 96
-.
-(pdftex.def)             Requested size: 333.97972pt x 432.21294pt.
- [3 <./EE_Statement_of_Authorship.pdf>]
-------------------------------------------------------------------------------
- Abstract Page
-------------------------------------------------------------------------------
-[4
-
-]
-------------------------------------------------------------------------------
- Acknowledgements
-------------------------------------------------------------------------------
-[5
-
-]
-------------------------------------------------------------------------------
- Table of Contents
-------------------------------------------------------------------------------
-[6
-
-
-] (./Thesis.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 10.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 10.
-
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [7] [8])
-\tf@toc=\write6
-\openout6 = `Thesis.toc'.
-
- [9] [10
-
-]
-------------------------------------------------------------------------------
- List of Figures
-------------------------------------------------------------------------------
-(./Thesis.lof [11
-
-])
-\tf@lof=\write7
-\openout7 = `Thesis.lof'.
-
- [12]
-------------------------------------------------------------------------------
- List of Tables
-------------------------------------------------------------------------------
-(./Thesis.lot)
-\tf@lot=\write8
-\openout8 = `Thesis.lot'.
-
- [13
-
-
-] [14
 
 ]
 Chapter 1.
 ------------------------------------------------------------------------------
- 1 Introduction
+ 1 Functionality
 ------------------------------------------------------------------------------
-[1
-
-
-] [2]
-LaTeX Font Info:    Try loading font information for TS1+aer on input line 194.
-
- (/usr/share/texmf/tex/latex/ts1aer.fd
+LaTeX Font Info:    Try loading font information for TS1+aer on input line 88.
+(/usr/share/texmf/tex/latex/ts1aer.fd
 File: ts1aer.fd 
 )
 LaTeX Font Info:    Font shape `TS1/aer/m/n' in size <10.95> not available
-(Font)              Font shape `TS1/cmr/m/n' tried instead on input line 194.
- [3]
-<fig/intro/growth.pdf, id=743, 433.62pt x 433.62pt>
-File: fig/intro/growth.pdf Graphic file (type pdf)
- <use fig/intro/growth.pdf>
-Package pdftex.def Info: fig/intro/growth.pdf used on input line 210.
-(pdftex.def)             Requested size: 333.97972pt x 333.9943pt.
+(Font)              Font shape `TS1/cmr/m/n' tried instead on input line 88.
+ [1
 
-[4] [5 <./fig/intro/growth.pdf>] [6]
+
+] [2] [3]
 Chapter 2.
 ------------------------------------------------------------------------------
- 2 Structure and Inverse Kinematics 
+ 2 Technologies
 ------------------------------------------------------------------------------
-
-<fig/structure_positioning/structure_diagram.pdf, id=770, 424.58624pt x 345.29p
-t>
-File: fig/structure_positioning/structure_diagram.pdf Graphic file (type pdf)
- <use fig/structure_positioning/structure_diagram.pdf>
-Package pdftex.def Info: fig/structure_positioning/structure_diagram.pdf used o
-n input line 242.
-(pdftex.def)             Requested size: 333.97972pt x 271.61697pt.
- [7
-
-] [8 <./fig/structure_positioning/structure_diagram.pdf>]
-<fig/structure_positioning/structure_simple.pdf, id=804, 424.58624pt x 345.29pt
->
-File: fig/structure_positioning/structure_simple.pdf Graphic file (type pdf)
- <use fig/structure_positioning/structure_simple.pdf>
-Package pdftex.def Info: fig/structure_positioning/structure_simple.pdf used on
- input line 289.
-(pdftex.def)             Requested size: 333.97972pt x 271.61697pt.
- [9 <./fig/structure_positioning/structure_simple.pdf>] [10] [11]
-<fig/structure_positioning/top-view_diagram.pdf, id=837, 374.39874pt x 322.2037
-5pt>
-File: fig/structure_positioning/top-view_diagram.pdf Graphic file (type pdf)
- <use fig/structure_positioning/top-view_diagram.pdf>
-Package pdftex.def Info: fig/structure_positioning/top-view_diagram.pdf used on
- input line 346.
-(pdftex.def)             Requested size: 333.97972pt x 287.43398pt.
- [12 <./fig/structure_positioning/top-view_diagram.pdf>]
-
-Package amsmath Warning: Foreign command \over;
-(amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 360.
-
-[13]
-<fig/structure_positioning/top-view-angle_diagram.pdf, id=864, 374.39874pt x 32
-2.20375pt>
-File: fig/structure_positioning/top-view-angle_diagram.pdf Graphic file (type p
-df)
- <use fig/structure_positioning/top-view-angle_diagram.pdf>
-Package pdftex.def Info: fig/structure_positioning/top-view-angle_diagram.pdf u
-sed on input line 395.
-(pdftex.def)             Requested size: 284.52756pt x 244.87247pt.
- [14 <./fig/structure_positioning/top-view-angle_diagram.pdf>] [15] [16
+[4
 
 ]
 Chapter 3.
 ------------------------------------------------------------------------------
- 3 Motion
+ 3 Limitations
 ------------------------------------------------------------------------------
-[17] [18]
+[5
+
+]
 Chapter 4.
 ------------------------------------------------------------------------------
- 4 Hardware
+ 4 Schedule
 ------------------------------------------------------------------------------
-<fig/hardware/system30_img.JPG, id=903, 2854.665pt x 2123.935pt>
-File: fig/hardware/system30_img.JPG Graphic file (type jpg)
+[6
 
-<use fig/hardware/system30_img.JPG>
-Package pdftex.def Info: fig/hardware/system30_img.JPG used on input line 468.
-(pdftex.def)             Requested size: 113.81102pt x 84.65125pt.
- [19
-
- <./fig/hardware/system30_img.JPG>]
-<fig/hardware/8mm_lm8uu.jpg, id=908, 602.25pt x 301.125pt>
-File: fig/hardware/8mm_lm8uu.jpg Graphic file (type jpg)
-
-<use fig/hardware/8mm_lm8uu.jpg>
-Package pdftex.def Info: fig/hardware/8mm_lm8uu.jpg used on input line 491.
-(pdftex.def)             Requested size: 170.71652pt x 85.35744pt.
-
-<fig/hardware/frame.pdf, id=909, 188.705pt x 265.99374pt>
-File: fig/hardware/frame.pdf Graphic file (type pdf)
-
-<use fig/hardware/frame.pdf>
-Package pdftex.def Info: fig/hardware/frame.pdf used on input line 511.
-(pdftex.def)             Requested size: 113.81102pt x 160.42545pt.
- [20 <./fig/hardware/8mm_lm8uu.jpg>]
-<fig/hardware/bracket_bottom.png, id=914, 1915.155pt x 1138.2525pt>
-File: fig/hardware/bracket_bottom.png Graphic file (type png)
-
-<use fig/hardware/bracket_bottom.png>
-Package pdftex.def Info: fig/hardware/bracket_bottom.png used on input line 530
-.
-(pdftex.def)             Requested size: 227.62204pt x 135.28178pt.
- [21 <./fig/hardware/frame.pdf> <./fig/hardware/bracket_bottom.png>]
-<fig/hardware/bracket_top.png, id=922, 1915.155pt x 1138.2525pt>
-File: fig/hardware/bracket_top.png Graphic file (type png)
-
-<use fig/hardware/bracket_top.png>
-Package pdftex.def Info: fig/hardware/bracket_top.png used on input line 539.
-(pdftex.def)             Requested size: 227.62204pt x 135.28178pt.
-
-<fig/hardware/platform.png, id=923, 1915.155pt x 1138.2525pt>
-File: fig/hardware/platform.png Graphic file (type png)
-
-<use fig/hardware/platform.png>
-Package pdftex.def Info: fig/hardware/platform.png used on input line 550.
-(pdftex.def)             Requested size: 227.62204pt x 135.28178pt.
- [22 <./fig/hardware/bracket_top.png> <./fig/hardware/platform.png>]
-<fig/hardware/trac5347.jpg, id=928, 351.3125pt x 231.86626pt>
-File: fig/hardware/trac5347.jpg Graphic file (type jpg)
-
-<use fig/hardware/trac5347.jpg>
-Package pdftex.def Info: fig/hardware/trac5347.jpg used on input line 562.
-(pdftex.def)             Requested size: 227.62204pt x 150.23364pt.
-
-<fig/hardware/carriage.png, id=929, 1915.155pt x 1138.2525pt>
-File: fig/hardware/carriage.png Graphic file (type png)
-
-<use fig/hardware/carriage.png>
-Package pdftex.def Info: fig/hardware/carriage.png used on input line 570.
-(pdftex.def)             Requested size: 227.62204pt x 135.28178pt.
- [23 <./fig/hardware/trac5347.jpg> <./fig/hardware/carriage.png>] <fig/hardware
-/gear.png, id=937, 1915.155pt x 1138.2525pt>
-File: fig/hardware/gear.png Graphic file (type png)
-
-<use fig/hardware/gear.png>
-Package pdftex.def Info: fig/hardware/gear.png used on input line 588.
-(pdftex.def)             Requested size: 227.62204pt x 135.28178pt.
- [24 <./fig/hardware/gear.png (PNG copy)>]
-<fig/hardware/Nema_17_Stepper_Motor.jpg, id=942, 433.62pt x 289.08pt>
-File: fig/hardware/Nema_17_Stepper_Motor.jpg Graphic file (type jpg)
-
-<use fig/hardware/Nema_17_Stepper_Motor.jpg>
-Package pdftex.def Info: fig/hardware/Nema_17_Stepper_Motor.jpg used on input l
-ine 599.
-(pdftex.def)             Requested size: 227.62204pt x 151.74721pt.
-
-<fig/hardware/tool_end/plotter.png, id=943, 1915.155pt x 1138.2525pt>
-File: fig/hardware/tool_end/plotter.png Graphic file (type png)
-
-<use fig/hardware/tool_end/plotter.png>
-Package pdftex.def Info: fig/hardware/tool_end/plotter.png used on input line 6
-10.
-(pdftex.def)             Requested size: 227.62204pt x 135.28178pt.
- [25 <./fig/hardware/Nema_17_Stepper_Motor.jpg> <./fig/hardware/tool_end/plotte
-r.png>]
-<fig/hardware/tool_end/homed.jpg, id=948, 5203.44pt x 3468.96pt>
-File: fig/hardware/tool_end/homed.jpg Graphic file (type jpg)
-
-<use fig/hardware/tool_end/homed.jpg>
-Package pdftex.def Info: fig/hardware/tool_end/homed.jpg used on input line 620
-.
-(pdftex.def)             Requested size: 227.62204pt x 151.70311pt.
-
-<fig/hardware/tool_end/jhead.jpg, id=949, 803.0pt x 806.01125pt>
-File: fig/hardware/tool_end/jhead.jpg Graphic file (type jpg)
-
-<use fig/hardware/tool_end/jhead.jpg>
-Package pdftex.def Info: fig/hardware/tool_end/jhead.jpg used on input line 631
-.
-(pdftex.def)             Requested size: 227.62204pt x 228.47342pt.
- [26 <./fig/hardware/tool_end/homed.jpg>]
-<fig/hardware/tool_end/extruder.png, id=954, 1915.155pt x 1138.2525pt>
-File: fig/hardware/tool_end/extruder.png Graphic file (type png)
-
-<use fig/hardware/tool_end/extruder.png>
-Package pdftex.def Info: fig/hardware/tool_end/extruder.png used on input line 
-639.
-(pdftex.def)             Requested size: 227.62204pt x 135.28178pt.
- [27 <./fig/hardware/tool_end/jhead.jpg> <./fig/hardware/tool_end/extruder.png>
 ]
-<fig/hardware/tool_end/feeder.png, id=960, 1915.155pt x 1138.2525pt>
-File: fig/hardware/tool_end/feeder.png Graphic file (type png)
-
-<use fig/hardware/tool_end/feeder.png>
-Package pdftex.def Info: fig/hardware/tool_end/feeder.png used on input line 65
-5.
-(pdftex.def)             Requested size: 227.62204pt x 135.28178pt.
- [28 <./fig/hardware/tool_end/feeder.png>]
 Chapter 5.
 ------------------------------------------------------------------------------
- 5 Electronic Systems
+ 5 Costs and Expenses 
 ------------------------------------------------------------------------------
-<fig/electronics/modular.jpg, id=966, 1027.84pt x 579.16376pt>
-File: fig/electronics/modular.jpg Graphic file (type jpg)
-
-<use fig/electronics/modular.jpg>
-Package pdftex.def Info: fig/electronics/modular.jpg used on input line 672.
-(pdftex.def)             Requested size: 333.97972pt x 188.19063pt.
- [29
-
- <./fig/electronics/modular.jpg>]
-<fig/electronics/electronics.jpg, id=972, 5203.44pt x 3468.96pt>
-File: fig/electronics/electronics.jpg Graphic file (type jpg)
-
-<use fig/electronics/electronics.jpg>
-Package pdftex.def Info: fig/electronics/electronics.jpg used on input line 682
-.
-(pdftex.def)             Requested size: 333.97972pt x 222.63199pt.
-
-<fig/electronics/top_level.png, id=974, 1646.15pt x 1222.5675pt>
-File: fig/electronics/top_level.png Graphic file (type png)
-
-<use fig/electronics/top_level.png>
-Package pdftex.def Info: fig/electronics/top_level.png used on input line 699.
-(pdftex.def)             Requested size: 333.97972pt x 248.03493pt.
- [30 <./fig/electronics/electronics.jpg>]
-[31 <./fig/electronics/top_level.png>]
-<fig/electronics/endstop.jpg, id=983, 5203.44pt x 3468.96pt>
-File: fig/electronics/endstop.jpg Graphic file (type jpg)
-
-<use fig/electronics/endstop.jpg>
-Package pdftex.def Info: fig/electronics/endstop.jpg used on input line 726.
-(pdftex.def)             Requested size: 333.97972pt x 222.63199pt.
- [32]
-<fig/electronics/power.png, id=988, 1351.0475pt x 1217.54875pt>
-File: fig/electronics/power.png Graphic file (type png)
-
-<use fig/electronics/power.png>
-Package pdftex.def Info: fig/electronics/power.png used on input line 742.
-(pdftex.def)             Requested size: 333.97972pt x 300.96803pt.
- [33 <./fig/electronics/endstop.jpg>] [34 <./fig/electronics/power.png>]
-Chapter 6.
-------------------------------------------------------------------------------
- 6 Software
-------------------------------------------------------------------------------
-[35
+[7
 
 ]
-Package epstopdf Info: Source file: <fig/software/high_level.eps>
-(epstopdf)                    date: 2013-12-17 20:09:43
-(epstopdf)                    size: 41166 bytes
-(epstopdf)             Output file: <fig/software/high_level-eps-converted-to.p
-df>
-(epstopdf)                    date: 2013-12-17 20:09:46
-(epstopdf)                    size: 8330 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/software/high_level-ep
-s-converted-to.pdf fig/software/high_level.eps>
-(epstopdf)             \includegraphics on input line 778.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/software/high_level-eps-converted-to.pdf, id=1002, 327.2225pt x 295.1025pt
->
-File: fig/software/high_level-eps-converted-to.pdf Graphic file (type pdf)
- <use fig/software/high_level-eps-converted-to.pdf>
-Package pdftex.def Info: fig/software/high_level-eps-converted-to.pdf used on i
-nput line 778.
-(pdftex.def)             Requested size: 333.97972pt x 301.19867pt.
-Package epstopdf Info: Source file: <fig/software/transmit.eps>
-(epstopdf)                    date: 2013-12-17 20:09:43
-(epstopdf)                    size: 42733 bytes
-(epstopdf)             Output file: <fig/software/transmit-eps-converted-to.pdf
->
-(epstopdf)                    date: 2013-12-17 20:09:47
-(epstopdf)                    size: 8494 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/software/transmit-eps-
-converted-to.pdf fig/software/transmit.eps>
-(epstopdf)             \includegraphics on input line 787.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/software/transmit-eps-converted-to.pdf, id=1003, 515.9275pt x 220.825pt>
-File: fig/software/transmit-eps-converted-to.pdf Graphic file (type pdf)
-
-<use fig/software/transmit-eps-converted-to.pdf>
-Package pdftex.def Info: fig/software/transmit-eps-converted-to.pdf used on inp
-ut line 787.
-(pdftex.def)             Requested size: 333.97972pt x 142.95161pt.
- [36 <./fig/software/high_level-eps-converted-to.pdf>]
-LaTeX Font Info:    Try loading font information for T1+aett on input line 801.
-
- (/usr/share/texmf-dist/tex/latex/ae/t1aett.fd
-File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-)
-
-LaTeX Font Warning: Font shape `T1/aett/bx/n' undefined
-(Font)              using `T1/aett/m/n' instead on input line 802.
-
-[37 <./fig/software/transmit-eps-converted-to.pdf>] [38] [39] [40]
-Package epstopdf Info: Source file: <fig/software/implementation/radius.eps>
-(epstopdf)                    date: 2013-12-17 20:09:43
-(epstopdf)                    size: 66489 bytes
-(epstopdf)             Output file: <fig/software/implementation/radius-eps-con
-verted-to.pdf>
-(epstopdf)                    date: 2013-12-17 20:09:47
-(epstopdf)                    size: 7050 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/software/implementatio
-n/radius-eps-converted-to.pdf fig/software/implementation/radius.eps>
-(epstopdf)             \includegraphics on input line 914.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/software/implementation/radius-eps-converted-to.pdf, id=1082, 117.43875pt 
-x 163.61125pt>
-File: fig/software/implementation/radius-eps-converted-to.pdf Graphic file (typ
-e pdf)
- <use fig/software/implementation/radius-eps-converted-to.pdf>
-Package pdftex.def Info: fig/software/implementation/radius-eps-converted-to.pd
-f used on input line 914.
-(pdftex.def)             Requested size: 113.81102pt x 158.5579pt.
-Package epstopdf Info: Source file: <fig/software/implementation/pixels.eps>
-(epstopdf)                    date: 2013-12-17 20:09:43
-(epstopdf)                    size: 41903 bytes
-(epstopdf)             Output file: <fig/software/implementation/pixels-eps-con
-verted-to.pdf>
-(epstopdf)                    date: 2013-12-17 20:09:47
-(epstopdf)                    size: 5608 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/software/implementatio
-n/pixels-eps-converted-to.pdf fig/software/implementation/pixels.eps>
-(epstopdf)             \includegraphics on input line 929.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/software/implementation/pixels-eps-converted-to.pdf, id=1083, 837.1275pt x
- 391.4625pt>
-File: fig/software/implementation/pixels-eps-converted-to.pdf Graphic file (typ
-e pdf)
- <use fig/software/implementation/pixels-eps-converted-to.pdf>
-Package pdftex.def Info: fig/software/implementation/pixels-eps-converted-to.pd
-f used on input line 929.
-(pdftex.def)             Requested size: 341.43306pt x 159.65843pt.
-
-[41 <./fig/software/implementation/radius-eps-converted-to.pdf>] [42 <./fig/sof
-tware/implementation/pixels-eps-converted-to.pdf>]
-Chapter 7.
-------------------------------------------------------------------------------
- 7 Testing and Results
-------------------------------------------------------------------------------
-Package epstopdf Info: Source file: <fig/testing_results/accuracy/scale.eps>
-(epstopdf)                    date: 2013-12-17 20:09:43
-(epstopdf)                    size: 435567 bytes
-(epstopdf)             Output file: <fig/testing_results/accuracy/scale-eps-con
-verted-to.pdf>
-(epstopdf)                    date: 2013-12-17 20:09:47
-(epstopdf)                    size: 64310 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/testing_results/accura
-cy/scale-eps-converted-to.pdf fig/testing_results/accuracy/scale.eps>
-(epstopdf)             \includegraphics on input line 959.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/testing_results/accuracy/scale-eps-converted-to.pdf, id=1118, 145.54375pt 
-x 145.54375pt>
-File: fig/testing_results/accuracy/scale-eps-converted-to.pdf Graphic file (typ
-e pdf)
- <use fig/testing_results/accuracy/scale-eps-converted-to.pdf>
-Package pdftex.def Info: fig/testing_results/accuracy/scale-eps-converted-to.pd
-f used on input line 959.
-(pdftex.def)             Requested size: 170.71652pt x 170.72964pt.
-Package epstopdf Info: Source file: <fig/testing_results/accuracy/distortion.ep
-s>
-(epstopdf)                    date: 2013-12-17 20:09:43
-(epstopdf)                    size: 437872 bytes
-(epstopdf)             Output file: <fig/testing_results/accuracy/distortion-ep
-s-converted-to.pdf>
-(epstopdf)                    date: 2013-12-17 20:09:48
-(epstopdf)                    size: 64857 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/testing_results/accura
-cy/distortion-eps-converted-to.pdf fig/testing_results/accuracy/distortion.eps>
-
-(epstopdf)             \includegraphics on input line 971.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/testing_results/accuracy/distortion-eps-converted-to.pdf, id=1119, 251.941
-25pt x 251.94125pt>
-File: fig/testing_results/accuracy/distortion-eps-converted-to.pdf Graphic file
- (type pdf)
-
-<use fig/testing_results/accuracy/distortion-eps-converted-to.pdf>
-Package pdftex.def Info: fig/testing_results/accuracy/distortion-eps-converted-
-to.pdf used on input line 971.
-(pdftex.def)             Requested size: 227.62204pt x 227.62152pt.
- [43
-
- <./fig/testing_results/accuracy/scale-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <fig/testing_results/accuracy/frame.eps>
-(epstopdf)                    date: 2013-12-17 20:09:43
-(epstopdf)                    size: 25979 bytes
-(epstopdf)             Output file: <fig/testing_results/accuracy/frame-eps-con
-verted-to.pdf>
-(epstopdf)                    date: 2013-12-17 20:09:48
-(epstopdf)                    size: 4693 bytes
-(epstopdf)             Command: <repstopdf --outfile=fig/testing_results/accura
-cy/frame-eps-converted-to.pdf fig/testing_results/accuracy/frame.eps>
-(epstopdf)             \includegraphics on input line 979.
-Package epstopdf Info: Output file is already uptodate.
-
-<fig/testing_results/accuracy/frame-eps-converted-to.pdf, id=1130, 258.9675pt x
- 236.885pt>
-File: fig/testing_results/accuracy/frame-eps-converted-to.pdf Graphic file (typ
-e pdf)
- <use fig/testing_results/accuracy/frame-eps-converted-to.pdf>
-Package pdftex.def Info: fig/testing_results/accuracy/frame-eps-converted-to.pd
-f used on input line 979.
-(pdftex.def)             Requested size: 170.71652pt x 156.16747pt.
-
-[44 <./fig/testing_results/accuracy/distortion-eps-converted-to.pdf> <./fig/tes
-ting_results/accuracy/frame-eps-converted-to.pdf>] [45]
-<fig/testing_results/repeatability/100sqrs.jpg, id=1148, 350.30875pt x 254.9525
-pt>
-File: fig/testing_results/repeatability/100sqrs.jpg Graphic file (type jpg)
- <use fig/testing_results/repeatability/100sqrs.jpg>
-Package pdftex.def Info: fig/testing_results/repeatability/100sqrs.jpg used on 
-input line 1012.
-(pdftex.def)             Requested size: 333.97972pt x 243.08656pt.
- [46 <./fig/testing_results/repeatability/100sqrs.jpg>]
-Chapter 8.
-------------------------------------------------------------------------------
- 8 Project Management
-------------------------------------------------------------------------------
-\ganttx=\count178
-\ganttheight=\count179
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-
-Overfull \hbox (19.948pt too wide) in paragraph at lines 1090--1091
-[][] 
- []
-
-[47
-
-] [48] [49
-
-]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[50]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[51] [52] [53] [54
-
-]
-Chapter 9.
-------------------------------------------------------------------------------
- 9 Conclusion
-------------------------------------------------------------------------------
-<fig/deltabot.jpg, id=1189, 2569.6pt x 3499.0725pt>
-File: fig/deltabot.jpg Graphic file (type jpg)
- <use fig/deltabot.jpg>
-Package pdftex.def Info: fig/deltabot.jpg used on input line 1289.
-(pdftex.def)             Requested size: 170.71652pt x 232.46649pt.
-
-[55 <./fig/deltabot.jpg>] [56
-
-]
-Appendix A.
-------------------------------------------------------------------------------
- A Reference Documents
-------------------------------------------------------------------------------
-[57] [58
-
-]
-Appendix B.
-------------------------------------------------------------------------------
- B Abbreviations
-------------------------------------------------------------------------------
-[59] [60
-
-]
-Appendix C.
-------------------------------------------------------------------------------
- C Schematics
-------------------------------------------------------------------------------
-<fig/appendices/schematics/top.pdf, id=1219, 614.295pt x 793.96625pt>
-File: fig/appendices/schematics/top.pdf Graphic file (type pdf)
-
-<use fig/appendices/schematics/top.pdf>
-Package pdftex.def Info: fig/appendices/schematics/top.pdf used on input line 1
-356.
-(pdftex.def)             Requested size: 333.97972pt x 431.6672pt.
- [61] [62 <./fig/appendices/schematics/top.pdf, page is rotated 270 degrees>]
-<fig/appendices/schematics/cpu.pdf, id=1241, 614.295pt x 793.96625pt>
-File: fig/appendices/schematics/cpu.pdf Graphic file (type pdf)
-
-<use fig/appendices/schematics/cpu.pdf>
-Package pdftex.def Info: fig/appendices/schematics/cpu.pdf used on input line 1
-363.
-(pdftex.def)             Requested size: 333.97972pt x 431.6672pt.
- [63
-
- <./fig/appendices/schematics/cpu.pdf, page is rotated 270 degrees>]
-<fig/appendices/schematics/sdriver.pdf, id=1259, 614.295pt x 793.96625pt>
-File: fig/appendices/schematics/sdriver.pdf Graphic file (type pdf)
-
-<use fig/appendices/schematics/sdriver.pdf>
-Package pdftex.def Info: fig/appendices/schematics/sdriver.pdf used on input li
-ne 1370.
-(pdftex.def)             Requested size: 333.97972pt x 431.6672pt.
- [64
-
- <./fig/appendices/schematics/sdriver.pdf, page is rotated 270 degrees>]
-<fig/appendices/schematics/actuator.pdf, id=1277, 614.295pt x 793.96625pt>
-File: fig/appendices/schematics/actuator.pdf Graphic file (type pdf)
-
-<use fig/appendices/schematics/actuator.pdf>
-Package pdftex.def Info: fig/appendices/schematics/actuator.pdf used on input l
-ine 1377.
-(pdftex.def)             Requested size: 333.97972pt x 431.6672pt.
- [65
-
- <./fig/appendices/schematics/actuator.pdf, page is rotated 270 degrees>]
-<fig/appendices/schematics/heater.pdf, id=1296, 614.295pt x 793.96625pt>
-File: fig/appendices/schematics/heater.pdf Graphic file (type pdf)
-
-<use fig/appendices/schematics/heater.pdf>
-Package pdftex.def Info: fig/appendices/schematics/heater.pdf used on input lin
-e 1384.
-(pdftex.def)             Requested size: 333.97972pt x 431.6672pt.
- [66
-
- <./fig/appendices/schematics/heater.pdf, page is rotated 270 degrees>]
-<fig/appendices/schematics/capsense.pdf, id=1314, 614.295pt x 793.96625pt>
-File: fig/appendices/schematics/capsense.pdf Graphic file (type pdf)
-
-<use fig/appendices/schematics/capsense.pdf>
-Package pdftex.def Info: fig/appendices/schematics/capsense.pdf used on input l
-ine 1391.
-(pdftex.def)             Requested size: 333.97972pt x 431.6672pt.
- [67
-
- <./fig/appendices/schematics/capsense.pdf, page is rotated 270 degrees>]
-<fig/appendices/schematics/usb.pdf, id=1332, 614.295pt x 793.96625pt>
-File: fig/appendices/schematics/usb.pdf Graphic file (type pdf)
-
-<use fig/appendices/schematics/usb.pdf>
-Package pdftex.def Info: fig/appendices/schematics/usb.pdf used on input line 1
-398.
-(pdftex.def)             Requested size: 333.97972pt x 431.6672pt.
- [68
-
- <./fig/appendices/schematics/usb.pdf, page is rotated 270 degrees>]
-Appendix D.
-------------------------------------------------------------------------------
- D PCB Layout
-------------------------------------------------------------------------------
-<fig/appendices/layout/top.png, id=1351, 1177.39874pt x 1768.6075pt>
-File: fig/appendices/layout/top.png Graphic file (type png)
-
-<use fig/appendices/layout/top.png>
-Package pdftex.def Info: fig/appendices/layout/top.png used on input line 1409.
-
-(pdftex.def)             Requested size: 284.52756pt x 427.38905pt.
- [69
-
-
-]
-Overfull \vbox (8.39772pt too high) has occurred while \output is active []
-
-
-[70 <./fig/appendices/layout/top.png (PNG copy)>]
-<fig/appendices/layout/bottom.png, id=1361, 1177.39874pt x 1770.615pt>
-File: fig/appendices/layout/bottom.png Graphic file (type png)
-
-<use fig/appendices/layout/bottom.png>
-Package pdftex.def Info: fig/appendices/layout/bottom.png used on input line 14
-15.
-(pdftex.def)             Requested size: 284.52756pt x 427.87416pt.
- [71 <./fig/appendices/layout/bottom.png>] [72
-
-]
-Appendix E.
-------------------------------------------------------------------------------
- E Source Code
-------------------------------------------------------------------------------
-[73] [74
-
-]
-Appendix F.
-------------------------------------------------------------------------------
- F Hardware Designs
-------------------------------------------------------------------------------
-[75] [76
-
-]
-------------------------------------------------------------------------------
- Bibliography
-------------------------------------------------------------------------------
-(./Thesis.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1444.
- [77
-
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1444.
- (./Thesis.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1444.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1444.
-
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
+ (./Thesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 191.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8BDF3798FAD5D57FB45703F64E2A199B;16185.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1444.
+(rerunfilecheck)             Checksum: 911ED67BCB958A60C86F647F0D115FCD;2296.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 191.
  ) 
 Here is how much of TeX's memory you used:
- 23873 strings out of 493311
- 394140 string characters out of 6143649
- 546369 words of memory out of 5000000
- 26454 multiletter control sequences out of 15000+600000
- 55648 words of font info for 110 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 56i,13n,95p,784b,1706s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 24530 strings out of 493108
+ 424538 string characters out of 6140725
+ 505690 words of memory out of 5000000
+ 27507 multiletter control sequences out of 15000+600000
+ 27414 words of font info for 52 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,12n,95p,447b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
-fb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sha
-re/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmtt9.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on Thesis.pdf (91 pages, 26308593 bytes).
+c/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on Thesis.pdf (8 pages, 77691 bytes).
 PDF statistics:
- 1537 PDF objects out of 1728 (max. 8388607)
- 1326 compressed objects within 14 object streams
- 305 named destinations out of 1000 (max. 500000)
- 1085 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 136 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 

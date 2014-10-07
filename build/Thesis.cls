@@ -149,12 +149,12 @@
 \examiner    {}
 \degree      {}
 \authors     {}
-\university  {\texorpdfstring{\href{http://www.latrobe.edu.au}
-                {LA TROBE UNIVERSITY}}
-                {LA TROBE UNIVERSITY}}
-\UNIVERSITY  {\texorpdfstring{\href{http://www.latrobe.edu.au}
-                {LA TROBE UNIVERSITY}}
-                {LA TROBE UNIVERSITY}}
+\university  {\texorpdfstring{\href{http://epidev.com}
+                {EPIDEV}}
+                {EPIDEV}}
+\UNIVERSITY  {\texorpdfstring{\href{http://epidev.com}
+                {EPIDEV}}
+                {EPIDEV}}
 \department  {\texorpdfstring{\href{http://www.latrobe.edu.au/ee}
                 {Department of Electronic Engineering}}
                 {Department of Electronic Engineering}}
@@ -168,11 +168,11 @@
                 {RESEARCH GROUP NAME (IN BLOCK CAPITALS)}}
                 {RESEARCH GROUP NAME (IN BLOCK CAPITALS)}}
 \faculty     {\texorpdfstring{\href{http://www.latrobe.edu.au/scitecheng/}
-                {Faculty of Science, Technology and Engineering}}
-                {Faculty of Science, Technology and Engineering}}
+                {Faculty}}
+                {Faculty}}
 \FACULTY     {\texorpdfstring{\href{http://www.latrobe.edu.au/scitecheng/}
-                {FACULTY OF SCIENCE, TECHNOLOGY AND ENGINEERING}}
-                {FACULTY OF SCIENCE, TECHNOLOGY AND ENGINEERING}}
+                {FACULTY}}
+                {FACULTY}}
 \addresses   {}
 \subject     {}
 \keywords    {}
